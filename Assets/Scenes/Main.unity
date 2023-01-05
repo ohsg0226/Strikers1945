@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 750115345}
   - component: {fileID: 750115344}
   - component: {fileID: 750115343}
+  - component: {fileID: 750115346}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -489,7 +490,7 @@ MonoBehaviour:
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 4.09
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -506,7 +507,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 750115344}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 750115346}
+        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &750115344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,6 +558,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750115341}
   m_CullTransparentMesh: 1
+--- !u!114 &750115346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750115341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2dad8d7332e34c6caa7f5438ad2821f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &880324300
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +669,7 @@ GameObject:
   - component: {fileID: 1054024508}
   - component: {fileID: 1054024507}
   - component: {fileID: 1054024506}
+  - component: {fileID: 1054024509}
   m_Layer: 5
   m_Name: EndButton
   m_TagString: Untagged
@@ -715,7 +741,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1054024507}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1054024509}
+        m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
+        m_MethodName: GameQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1054024507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,6 +792,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054024504}
   m_CullTransparentMesh: 1
+--- !u!114 &1054024509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054024504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2dad8d7332e34c6caa7f5438ad2821f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187083344
 GameObject:
   m_ObjectHideFlags: 0
