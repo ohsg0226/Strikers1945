@@ -181,11 +181,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 376bc91d13e9d4bdb835111a0a6ff210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
+  maxShotDelay: 0.2
+  currentShotDelay: 0
   isTouchTop: 0
   isTouchBottom: 0
   isTouchLeft: 0
   isTouchRight: 0
+  missileObject1: {fileID: 144738398179061834, guid: f49d7ee31709643088cb9ff5a2ba68b3, type: 3}
 --- !u!212 &78348112
 SpriteRenderer:
   m_ObjectHideFlags: 0
