@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   health: 1
+  enemyScore: 1
   missileObject1: {fileID: 144738398179061834, guid: 1b0cf4f637c264522a414c22823e9c70, type: 3}
   maxShotDelay: 1
   currentShotDelay: 0
