@@ -9,6 +9,7 @@ TagManager:
   - BorderMissile
   - Enemy
   - PlayerMissile
+  - EnemyMissile
   layers:
   - Default
   - TransparentFX
