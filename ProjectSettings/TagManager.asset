@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - PlayerMissile
   - EnemyMissile
+  - Item
   layers:
   - Default
   - TransparentFX
