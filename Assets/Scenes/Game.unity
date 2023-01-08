@@ -1566,7 +1566,7 @@ MonoBehaviour:
   - {fileID: 1574570379}
   - {fileID: 1620667863}
   - {fileID: 375188805}
-  maxSpawnDelay: 0.3
+  nextSpawnDelay: 0
   currentSpawnDelay: 0
   player: {fileID: 78348109}
   scoreText: {fileID: 886206875}
@@ -1580,6 +1580,8 @@ MonoBehaviour:
   - {fileID: 2054439771}
   gameOverSet: {fileID: 294315126}
   objectManager: {fileID: 42857670}
+  spawnIndex: 0
+  spawnEnd: 0
 --- !u!1 &1177512470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,7 +2278,7 @@ Transform:
   m_GameObject: {fileID: 1968918169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.07, y: 0.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1976644566}
@@ -2466,7 +2468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976644565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 5.24, z: 0}
+  m_LocalPosition: {x: 0, y: 5.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
