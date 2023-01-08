@@ -149,9 +149,11 @@ MonoBehaviour:
   speed: 3
   health: 3
   enemyScore: 10
+  enemyName: L
   missileObject1: {fileID: 144738398179061834, guid: 1b0cf4f637c264522a414c22823e9c70, type: 3}
   itemPower: {fileID: 5912198234421706906, guid: 62daf08f4d63c4d0fb5c7cdb6943921d, type: 3}
   itemBoom: {fileID: 4789878195172775556, guid: c699118f84536426daf12c784019d545, type: 3}
   maxShotDelay: 1
   currentShotDelay: 0
   player: {fileID: 0}
+  objectManager: {fileID: 0}

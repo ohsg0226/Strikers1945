@@ -199,6 +199,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12617516}
   m_CullTransparentMesh: 1
+--- !u!1 &42857669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42857671}
+  - component: {fileID: 42857670}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &42857670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42857669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f89d8f2d89a3469da72ef9ddbf71394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyLPrefab: {fileID: 2323128269236717832, guid: 41e459a87936747a5912695022339b07, type: 3}
+  enemyMPrefab: {fileID: 4332377554961230436, guid: 3f49a084970ab48eca3971dde6b44903, type: 3}
+  enemySPrefab: {fileID: 497552661955613436, guid: e279f839ba58448a08f045811693db9a, type: 3}
+  itemPowerPrefab: {fileID: 5912198234421706906, guid: 62daf08f4d63c4d0fb5c7cdb6943921d, type: 3}
+  itemBoomPrefab: {fileID: 4789878195172775556, guid: c699118f84536426daf12c784019d545, type: 3}
+  missilePrefab: {fileID: 144738398179061834, guid: f49d7ee31709643088cb9ff5a2ba68b3, type: 3}
+  enemyMissilePrefab: {fileID: 144738398179061834, guid: 1b0cf4f637c264522a414c22823e9c70, type: 3}
+--- !u!4 &42857671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42857669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &78348109
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +412,8 @@ MonoBehaviour:
   isHit: 0
   isBoomTime: 0
   missileObject1: {fileID: 144738398179061834, guid: f49d7ee31709643088cb9ff5a2ba68b3, type: 3}
-  manager: {fileID: 1176003830}
+  objectManager: {fileID: 42857670}
+  gameManager: {fileID: 1176003830}
   boomEffect: {fileID: 1501465104}
 --- !u!1 &115082525
 GameObject:
@@ -803,7 +855,7 @@ Transform:
   - {fileID: 933254250}
   - {fileID: 1975845815}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &515242996
 MonoBehaviour:
@@ -1270,7 +1322,7 @@ RectTransform:
   - {fileID: 1976023164}
   - {fileID: 2054439770}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1501,9 +1553,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyObjects:
-  - {fileID: 497552661955613436, guid: e279f839ba58448a08f045811693db9a, type: 3}
-  - {fileID: 4332377554961230436, guid: 3f49a084970ab48eca3971dde6b44903, type: 3}
-  - {fileID: 2323128269236717832, guid: 41e459a87936747a5912695022339b07, type: 3}
+  - 
+  - 
+  - 
   spawnPoints:
   - {fileID: 1206476494}
   - {fileID: 1968918170}
@@ -1527,6 +1579,7 @@ MonoBehaviour:
   - {fileID: 1976023165}
   - {fileID: 2054439771}
   gameOverSet: {fileID: 294315126}
+  objectManager: {fileID: 42857670}
 --- !u!1 &1177512470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,7 +1987,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1574570378
 GameObject:
@@ -2427,7 +2480,7 @@ Transform:
   - {fileID: 1620667863}
   - {fileID: 375188805}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2024895553
 GameObject:
@@ -2495,7 +2548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2052942369
 GameObject:
