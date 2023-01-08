@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f89d8f2d89a3469da72ef9ddbf71394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyBossPrefab: {fileID: 7979438434591692952, guid: c870577b27a4d40208f15e45e4732a1d, type: 3}
   enemyLPrefab: {fileID: 2323128269236717832, guid: 41e459a87936747a5912695022339b07, type: 3}
   enemyMPrefab: {fileID: 4332377554961230436, guid: 3f49a084970ab48eca3971dde6b44903, type: 3}
   enemySPrefab: {fileID: 497552661955613436, guid: e279f839ba58448a08f045811693db9a, type: 3}
@@ -236,6 +237,7 @@ MonoBehaviour:
   missilePrefab: {fileID: 144738398179061834, guid: f49d7ee31709643088cb9ff5a2ba68b3, type: 3}
   enemyMissilePrefab: {fileID: 144738398179061834, guid: 1b0cf4f637c264522a414c22823e9c70, type: 3}
   followerMissilePrefab: {fileID: 1877740161113332, guid: d17799e01588538449a360ded5bd038c, type: 3}
+  enemyBossMissilePrefab: {fileID: 1877740161113332, guid: 48b8f2f5aefdb4ababb1c35deb59230c, type: 3}
 --- !u!4 &42857671
 Transform:
   m_ObjectHideFlags: 0
@@ -400,7 +402,7 @@ MonoBehaviour:
   speed: 5
   maxShotDelay: 0.2
   currentShotDelay: 0
-  power: 0
+  power: 1
   maxPower: 4
   boom: 0
   maxBoom: 3
@@ -1266,6 +1268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
+  isRotate: 0
 --- !u!1 &886206873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
+  isRotate: 0
 --- !u!1 &1117361129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
+  isRotate: 0
 --- !u!1 &1159905362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3148,6 +3153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
+  isRotate: 0
 --- !u!1 &2099818111
 GameObject:
   m_ObjectHideFlags: 0
