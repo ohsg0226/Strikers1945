@@ -239,6 +239,7 @@ MonoBehaviour:
   followerMissilePrefab: {fileID: 1877740161113332, guid: d17799e01588538449a360ded5bd038c, type: 3}
   enemyBossMissilePrefab: {fileID: 1877740161113332, guid: 48b8f2f5aefdb4ababb1c35deb59230c, type: 3}
   explosionPrefab: {fileID: 4638273829139910648, guid: 52aeb2cd33ae742c0981b6c0c5d01da2, type: 3}
+  bossExplosionPrefab: {fileID: 2265587845790826315, guid: 01cf200e86db241fc9f0c761bbd23f3a, type: 3}
 --- !u!4 &42857671
 Transform:
   m_ObjectHideFlags: 0
