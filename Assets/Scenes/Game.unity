@@ -238,6 +238,7 @@ MonoBehaviour:
   enemyMissilePrefab: {fileID: 144738398179061834, guid: 1b0cf4f637c264522a414c22823e9c70, type: 3}
   followerMissilePrefab: {fileID: 1877740161113332, guid: d17799e01588538449a360ded5bd038c, type: 3}
   enemyBossMissilePrefab: {fileID: 1877740161113332, guid: 48b8f2f5aefdb4ababb1c35deb59230c, type: 3}
+  explosionPrefab: {fileID: 4638273829139910648, guid: 52aeb2cd33ae742c0981b6c0c5d01da2, type: 3}
 --- !u!4 &42857671
 Transform:
   m_ObjectHideFlags: 0
@@ -415,6 +416,7 @@ MonoBehaviour:
   - {fileID: 1159905362}
   - {fileID: 552812491}
   - {fileID: 724328745}
+  isRespawnTime: 0
   score: 0
   isHit: 0
   isBoomTime: 0
@@ -466,6 +468,7 @@ MonoBehaviour:
   - {fileID: 1159905362}
   - {fileID: 552812491}
   - {fileID: 724328745}
+  isRespawnTime: 0
   score: 0
   isHit: 0
   isBoomTime: 0
@@ -2746,6 +2749,7 @@ MonoBehaviour:
   - {fileID: 1159905362}
   - {fileID: 552812491}
   - {fileID: 724328745}
+  isRespawnTime: 0
   score: 0
   isHit: 0
   isBoomTime: 0
@@ -2911,6 +2915,7 @@ MonoBehaviour:
   - {fileID: 1159905362}
   - {fileID: 552812491}
   - {fileID: 724328745}
+  isRespawnTime: 0
   score: 0
   isHit: 0
   isBoomTime: 0
