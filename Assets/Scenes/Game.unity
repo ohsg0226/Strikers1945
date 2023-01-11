@@ -510,7 +510,7 @@ MonoBehaviour:
   maxShotDelay: 0.2
   currentShotDelay: 0
   power: 1
-  maxPower: 4
+  maxPower: 3
   boom: 0
   maxBoom: 3
   life: 3
@@ -565,7 +565,7 @@ MonoBehaviour:
   maxShotDelay: 0.2
   currentShotDelay: 0
   power: 1
-  maxPower: 4
+  maxPower: 3
   boom: 0
   maxBoom: 3
   life: 3
@@ -3687,7 +3687,7 @@ MonoBehaviour:
   maxShotDelay: 0.2
   currentShotDelay: 0
   power: 1
-  maxPower: 4
+  maxPower: 3
   boom: 0
   maxBoom: 3
   life: 3
@@ -3856,7 +3856,7 @@ MonoBehaviour:
   maxShotDelay: 0.2
   currentShotDelay: 0
   power: 1
-  maxPower: 4
+  maxPower: 3
   boom: 0
   maxBoom: 3
   life: 3
